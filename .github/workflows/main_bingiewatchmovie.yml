@@ -20,5 +20,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'Bingeonlinemovies'  # Replace with your Azure Web App name
-          publish-profile: ${{ secrets.BINGE_ONLINE_MOVIES_TO }}
+          publish-profile: ${{ secrets.BINGE_WATCH_MOVIES }}
           package: .
